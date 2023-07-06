@@ -75,6 +75,7 @@ CNOT = np.round(tens(I, H) @ CZ @ tens(I, H))
 SWAP = np.round(tens(H, I) @ CZ @ tens(H, H) @ CZ @ tens(H, H) @ CZ @ tens(H, I))
 iSWAP = np.round(tens(I, H) @ CNOT @ tens(I, H) @ tens(SPh, SPh) @ SWAP)
 
+"""Группа Клиффорда для двух кубитов"""
 gl = []
 
 for i in range(24):
