@@ -71,8 +71,3 @@ for t in range(10):
     find_inverse_2(W)
     print('\n')
     print('\n')
-
-
-
-
-
